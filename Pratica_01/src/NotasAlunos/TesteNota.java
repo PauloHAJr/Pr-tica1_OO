@@ -7,19 +7,19 @@ public class TesteNota {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Nome: ");
+        System.out.println("Digite seu nome: ");
         aluno.setNome(sc.nextLine());
-        System.out.println("Matricula: ");
+        System.out.println("Número de matricula: ");
         aluno.setMatricula(sc.nextLine());
-        System.out.println("AV1: ");
+        System.out.println("Nota da AV1: ");
         aluno.setNotaAV1(sc.nextDouble());
-        System.out.println("AV2: ");
+        System.out.println("Nota da AV2: ");
         aluno.setNotaAV2(sc.nextDouble());
-        System.out.println("AE: ");
+        System.out.println("Nota da AE: ");
         aluno.setNotaAE(sc.nextDouble());
-        System.out.println("Curso: ");
+        System.out.println("Nome do curso: ");
         aluno.setCurso(sc.nextLine());
-        System.out.println("Periodo: ");
+        System.out.println("Período: ");
         aluno.setPeriodo(sc.nextLine());
 
         System.out.println(aluno.avaliarAluno());
